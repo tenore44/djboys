@@ -9,6 +9,9 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
+from django.contrib.admin import AdminSite
+
+AdminSite.site_header = 'DJBoys Blog'
 
 import os
 
